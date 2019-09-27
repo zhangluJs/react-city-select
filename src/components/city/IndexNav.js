@@ -42,7 +42,6 @@ class IndexNav extends Component {
         const { navOffsetX } = this.state;
         const currentItem = document.elementFromPoint(navOffsetX, y);
         const label = currentItem.textContent;
-
         if (!currentItem || !currentItem.classList.contains('city-label-item')) {
             return;
         }

@@ -1,115 +1,91 @@
 .city {
-  display: flex;
-  flex-direction: column; 
   width: 100%;
   height: 100%;
-}
-.city-top {
-  width: 100%;
-  height: auto;
-}
-.city-list {
-  position: relative; 
   display: flex;
-  width: 100%;
-
-  flex: 1;
-}
-.city-search-area {
-  position: absolute;
-  z-index: 3; 
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-.city-local,
-.city-hot {
-  background-color: #fff;
-}
-.city-local p,
-.city-hot p {
-  padding: 15px 20px;
-  font-size: 16px;
-  font-weight: 900;
-}
-.city-local ul,
-.city-hot ul {
-  padding: 0 30px 5px;
-}
-.city-item {
-  display: inline-block;
-  margin-right: 10px;
-  margin-bottom: 10px; 
-  padding: 5px 10px 3px 10px;
-  border: 1px solid #ccc;
-  text-align: center;
-  border-radius: 3px;
-}
-.city-location {
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  background: url(../../static/images/location.svg) center no-repeat;
-  background-size: 15px 15px;
-}
-.city-local-text,
-.city-hot-text {
-  display: inline-block;
-  margin-left: 3px; 
-  vertical-align: 3px;
-}
-.city-list-content {
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch; 
-
-  flex: 1;
-}
-.city-label {
-  position: absolute;
-  right: 0;
-  display: flex;
-  width: 20px;
-  height: 100%;
-  align-items: center;
-  justify-content: center;
-  z-index: 9;
-}
-.city-label-wrapper {
-  width: 50px;
-  position: fixed;
-  top: 50%;
-  transform: translateY(-50%);
-  display: flex;
-  flex-direction: column;
-}
-.city-label-item {
-  width: 100%;
-  padding: 2px 0; 
-  text-align: center;
-
-  flex: 1;
-}
-.city-indicator {
-  position: absolute;
-  z-index: 1; 
-  top: 50%;
-  left: 50%;
-  padding: 20px 25px;
-  font-size: 18px;
-  color: #fff;
-  border-radius: 5px;
-  background-color: rgba(0, 0, 0, .7);
-  transform: translate(-50%, -50%);
-}
-.city-search-menu .am-list-item {
-  border-bottom: 1px solid #ddd !important;
-}
-.city-menu-mask {
-  position: absolute;
-  z-index: 2; 
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, .3);
-}
+  flex-direction: column; }
+  .city-top {
+    width: 100%;
+    height: auto; }
+  .city-list {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    position: relative; }
+  .city-search-area {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3; }
+  .city-local, .city-hot {
+    background-color: #fff; }
+    .city-local p, .city-hot p {
+      padding: 15px 20px;
+      font-size: 16px;
+      font-weight: 900; }
+    .city-local ul, .city-hot ul {
+      padding: 0 30px 5px; }
+  .city-item {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 5px 10px 3px 10px;
+    border-radius: 3px;
+    margin-right: 10px;
+    text-align: center;
+    margin-bottom: 10px; }
+  .city-location {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background: url(../../static/images/location.svg) center no-repeat;
+    background-size: 15px 15px; }
+  .city-local-text, .city-hot-text {
+    display: inline-block;
+    vertical-align: 3px;
+    margin-left: 3px; }
+  .city-list-content {
+    flex: 1;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch; }
+  .city-label {
+    position: absolute;
+    z-index: 9;
+    right: 0;
+    display: flex;
+    width: 20px;
+    height: 100%;
+    align-items: center;
+    justify-content: center; }
+  .city-label-wrapper {
+    position: fixed;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    transform: translateY(-50%); }
+  .city-label-item {
+    width: 100%;
+    padding: 2px 0;
+    text-align: center;
+    flex: 1; }
+  .city-indicator {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    padding: 20px 25px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    transform: translate(-50%, -50%); }
+  .city-search-menu .am-list-item {
+    border-bottom: 1px solid #ddd !important; }
+  .city-menu-mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 2; }

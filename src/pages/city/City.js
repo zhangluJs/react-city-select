@@ -1,3 +1,8 @@
+/**
+ * @file 城市筛选页面
+ * @date 2019/09/23
+ */
+
 import React, {Component} from 'react';
 import {NavBar, SearchBar, WhiteSpace, List, Toast, Icon} from 'antd-mobile';
 import {SearchMask, IndexNav, Indicator, PositionCity, SearchArea} from '../../components';
